@@ -1,0 +1,11 @@
+[package]
+name = "lostark"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["winuser"] }
+rand = "0.8.4"
